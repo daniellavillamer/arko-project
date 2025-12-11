@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Hi({ name }) {
+function Hello({ name }) {
     return (
         <div>
             <h1>Hello, {name}!</h1>
@@ -9,4 +9,4 @@ function Hi({ name }) {
     );
 }
 
-export default Hi;
+export default Hello;
